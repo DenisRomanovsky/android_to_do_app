@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Simple TODO application</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item_hint">New To Do Item</string>
+    <string name="add_item_content_hint">New To Do Item</string>
+</resources>
