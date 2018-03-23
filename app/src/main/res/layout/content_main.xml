@@ -13,20 +13,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/toDoListInput"
+        <fragment
+            android:id="@+id/NewItemFragment"
+            android:name="com.example.dromanovsky.first_run_4_0_0.NewItemFragment"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/add_item_hint"
-            android:contentDescription="@string/add_item_content_hint"
-            />
+            android:layout_height="wrap_content" />
 
-        <ListView
-            android:id="@+id/mainToDoList"
+        <fragment
+            android:id="@+id/ToDoListFragment"
+            android:name="com.example.dromanovsky.first_run_4_0_0.ToDoListFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
