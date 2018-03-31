@@ -23,7 +23,7 @@ public class NewItemFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle SaveInstanceState) {
-        View view = inflater.inflate(R.layout.new_item_fragment, container, false);
+        View view = inflater.inflate(R.layout.new_item_fragment_unused, container, false);
 
         final EditText toDoListInput = (EditText)view.findViewById(R.id.toDoListInput);
 

@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements NewItemFragment.O
 
         // Data storing
         todoItems = new ArrayList<String>();
-        int fragmentID = R.layout.new_item_fragment;
+        int fragmentID = R.layout.todolist_item;
         arrayAdapter = new ArrayAdapter<String>(this, fragmentID, todoItems);
 
         toDoListFragment.setListAdapter(arrayAdapter);
